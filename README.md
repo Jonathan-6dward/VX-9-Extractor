@@ -1,4 +1,4 @@
-![VX-9 Banner](URL_DA_IMAGEM_DO_BANNER_AQUI)
+![VX-9 Banner](Banner.jpg)
 
 # 🛰️ VX-9 Extractor
 
