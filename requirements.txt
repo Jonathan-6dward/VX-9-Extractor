@@ -1,0 +1,10 @@
+Pillow
+pytesseract
+pandas
+openpyxl
+requests
+TikTokApi
+instaloader
+fastapi
+uvicorn[standard]
+python-multipart
