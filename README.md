@@ -2,7 +2,7 @@
 
 # 🛰️ VX-9 Extractor
 
-**Droide Experimental de Visão e Leitura — desenvolvido por [Anakyn](https://github.com/anakyn)**
+**Droide Experimental de Visão e Leitura — desenvolvido por [anakyn_1337](https://github.com/Jonathan-6dward)**
 
 > *“Nenhum dado escapará ao meu campo de visão.”*
 
@@ -101,7 +101,7 @@ vx9-extractor/
 **Status:** Ativo
 **Versão:** 1.0.0
 **Codinome:** *Vision Extractor Unit*
-**Desenvolvido por:** [Anakyn](https://github.com/anakyn)
+**Desenvolvido por:** [anakyn_1337](https://github.com/Jonathan-6dward)
 
 ---
 
