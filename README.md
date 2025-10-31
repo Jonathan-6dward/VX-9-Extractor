@@ -1,78 +1,112 @@
-# Extrator de Texto de Imagens (OCR) - API e Frontend
+![VX-9 Banner](URL_DA_IMAGEM_DO_BANNER_AQUI)
 
-Este projeto é uma solução completa para extrair texto de imagens, oferecendo tanto uma aplicação de desktop quanto uma moderna interface web com uma API backend.
+# 🛰️ VX-9 Extractor
 
-## Funcionalidades
+**Droide Experimental de Visão e Leitura — desenvolvido por [Anakyn](https://github.com/anakyn)**
 
-- **Interface Web (React)**: Faça upload de imagens diretamente no navegador e veja o texto extraído em tempo real.
-- **API Backend (FastAPI)**: Um endpoint robusto que recebe imagens e retorna o texto, servindo como a base para a interface web.
-- **Aplicação Desktop (Tkinter)**: Uma aplicação nativa para Windows/Linux/Mac para extrair texto de imagens e carrosséis de redes sociais (TikTok/Instagram).
+> *“Nenhum dado escapará ao meu campo de visão.”*
 
-## Tecnologias Utilizadas
+O **VX-9 Extractor** é um **droide de análise visual** criado para **identificar e extrair textos presentes em imagens** de forma rápida, precisa e automatizada.
+Desenvolvido com tecnologia OCR avançada (*Tesseract*), o sistema oferece uma **API robusta**, uma **interface web moderna** e uma **aplicação desktop nativa**, permitindo integração completa entre visão computacional e automação.
 
-- **Frontend**: React, Vite, TypeScript
-- **Backend**: Python, FastAPI, Uvicorn
-- **OCR**: Tesseract
-- **Desktop App**: Python, Tkinter
+---
 
-## Pré-requisitos
+## ⚙️ **Arquitetura do Droide**
 
-Antes de começar, garanta que você tem os seguintes softwares instalados:
+* **Interface Web (React + Vite + TypeScript):**
+  Faça upload de imagens diretamente do navegador e veja o texto reconhecido em tempo real.
+* **API Backend (FastAPI + Uvicorn):**
+  O núcleo de processamento do VX-9, responsável por interpretar as imagens e retornar o texto extraído.
+* **Aplicação Desktop (Tkinter):**
+  Uma versão leve e independente para uso local em Windows, Linux ou Mac. Ideal para fluxos offline e extração em massa.
 
-- **Python 3.11+**
-- **Node.js 18+** e **npm**
-- **Tesseract OCR**: É uma dependência de sistema.
-  - No Ubuntu/Debian: `sudo apt-get install tesseract-ocr tesseract-ocr-por`
-  - No Windows/Mac: [Siga o instalador oficial](https://github.com/tesseract-ocr/tesseract)
+---
 
-## Como Rodar o Projeto
+## 🔮 **Tecnologias que Alimentam o VX-9**
 
-Siga os passos abaixo para ter o ambiente completo (API + Frontend) funcionando.
+| Sistema         | Tecnologia               |
+| --------------- | ------------------------ |
+| **Frontend**    | React, Vite, TypeScript  |
+| **Backend**     | Python, FastAPI, Uvicorn |
+| **OCR Engine**  | Tesseract                |
+| **Desktop App** | Python, Tkinter          |
 
-**1. Clone o Repositório**
+---
+
+## 🧩 **Instalação e Inicialização do Sistema**
+
+### 1. Clone o Repositório
+
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO_NO_GITHUB>
-cd text-extractor
+git clone https://github.com/Jonathan-6dward/VX-9-Extractor.git
+cd VX-9-Extractor
 ```
 
-**2. Configure e Rode o Backend (API)**
-
-Abra um terminal na pasta do projeto e execute:
+### 2. Inicie o Núcleo (API Backend)
 
 ```bash
-# Instale as dependências do Python
+# Instale as dependências
 pip install -r requirements.txt
 
-# Inicie o servidor da API
+# Inicie o servidor FastAPI
 uvicorn api:app --reload
 ```
-> A API estará rodando em `http://127.0.0.1:8000`.
 
-**3. Configure e Rode o Frontend (React)**
+🔗 API ativa em: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 
-Abra um **novo terminal** na mesma pasta do projeto e execute:
+---
+
+### 3. Ative o Painel de Controle (Frontend React)
 
 ```bash
-# Instale as dependências do Node.js
+# Instale dependências do Node.js
 npm install
 
-# Inicie a aplicação React
+# Inicie o frontend
 npm run dev
 ```
-> A interface web estará acessível no endereço fornecido (geralmente `http://127.0.0.1:5173`).
 
-**4. (Opcional) Rodando a Aplicação Desktop**
+💻 Interface disponível em: **[http://127.0.0.1:5173](http://127.0.0.1:5173)**
 
-Se quiser usar a aplicação de desktop original, execute:
+---
+
+### 4. (Opcional) Execute o Módulo Desktop
 
 ```bash
 ./start.sh
 ```
 
-## Estrutura do Projeto
+---
 
-- `api.py`: O servidor da API web construído com FastAPI.
-- `carousel_text_extractor.py`: A aplicação de desktop original com Tkinter.
-- `index.html` e `src/`: Contém o código-fonte da aplicação frontend em React.
-- `requirements.txt`: Dependências do Python (backend e desktop).
-- `package.json`: Dependências do Node.js (frontend).
+## 🧠 **Estrutura do Projeto**
+
+```
+vx9-extractor/
+├── api.py                     # Núcleo FastAPI (módulo OCR)
+├── carousel_text_extractor.py # Aplicação desktop (Tkinter)
+├── src/                       # Interface Web (React)
+├── index.html                 # Base do frontend
+├── requirements.txt           # Dependências Python
+├── package.json               # Dependências JavaScript
+└── README.md                  # Este arquivo
+```
+
+---
+
+## ⚔️ **Protocolo VX-9**
+
+> “Forjado para observar, projetado para compreender.
+> O VX-9 transforma visão em informação.”
+
+**Status:** Ativo
+**Versão:** 1.0.0
+**Codinome:** *Vision Extractor Unit*
+**Desenvolvido por:** [Anakyn](https://github.com/anakyn)
+
+---
+
+## 🩶 **Licença**
+
+Este projeto segue os princípios do Código Sith — ou, mais precisamente, a [MIT License](LICENSE).
+
+> *O conhecimento deve ser livre… e poderoso.*
